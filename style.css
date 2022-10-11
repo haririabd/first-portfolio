@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    background: url(img/pexels-james-wheeler-414612.jpg) rgba(255, 123, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    padding-top: 30%;
+    color: azure;
+    position: relative;
+    z-index: 1;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.social a {
+    font-size: 35px;
+    color: azure;
+    margin: 20px 15px;
+}
